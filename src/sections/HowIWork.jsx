@@ -1,4 +1,4 @@
-import Workspace from "../Images/workspace.png";
+import Workspace from "../Images/Workspace.png";
 
 const sideCard =
     "flex items-center justify-between gap-4 rounded-[18px] border border-[#E1CEB8] bg-gradient-to-br from-[#FDF9F2] to-[#E9DFD0] px-[18px] py-4";
