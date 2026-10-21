@@ -1,6 +1,6 @@
 import { useState } from "react";
 import techIcons from "../utils/techIcons";
-import Workspace from "../Images/workspace.png";
+import Workspace from "../Images/Workspace.png";
 
 const techStack = {
     Frontend: [
@@ -103,8 +103,8 @@ const AboutMe = () => {
                                     aria-pressed={isActive}
                                     onClick={() => setActiveCategory(category)}
                                     className={`rounded-full border px-3 py-2 text-xs font-medium transition duration-200 ${isActive
-                                            ? "border-[#302820] bg-[#302820] text-[#FAF7F0]"
-                                            : "border-[#D8C8B5] bg-[#FAF7F0] text-[#65594D] hover:border-[#A87955] hover:bg-[#E9DFD0]"
+                                        ? "border-[#302820] bg-[#302820] text-[#FAF7F0]"
+                                        : "border-[#D8C8B5] bg-[#FAF7F0] text-[#65594D] hover:border-[#A87955] hover:bg-[#E9DFD0]"
                                         }`}
                                 >
                                     {category}
