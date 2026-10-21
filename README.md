@@ -1,21 +1,59 @@
-<<<<<<< HEAD
-# React + Vite
+# Akshay Rawat | Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal portfolio website built to showcase my projects, skills and experience as a Frontend Developer.
 
-Currently, two official plugins are available:
+🔗 **Live site:** [add-your-link-after-deploying](https://your-site-link-here)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Responsive design for mobile, tablet and desktop
+- Sections for About, Tech Stack, How I Work, Projects, Experience and Contact
+- Interactive tech stack filter by category
+- Contact button that opens an email draft
+- Clean, warm design with a consistent colour palette
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+- React (Vite)
+- Tailwind CSS
+- React Icons
+- JavaScript (ES6+)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# Portfolio-
-Personal portfolio website built with React and Tailwind CSS, showcasing my projects, skills and experience.
->>>>>>> b289dc4a4def1b5cae2f92ac8380311416ba92c8
+## Getting Started
+
+```bash
+# Clone the repository
+git clone https://github.com/Akshay-Rawat/Portfolio.git
+
+# Go into the folder
+cd Portfolio
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+```
+
+To create a production build:
+
+```bash
+npm run build
+```
+
+## Project Structure
+
+```
+src/
+├── components/   # Reusable UI (Navbar)
+├── sections/     # Page sections (About, Projects, Contact...)
+├── Data/         # Projects and experience data
+├── Images/       # Project and profile images
+└── utils/        # Tech icon mappings
+```
+
+## Contact
+
+- Email: rawatakshay428@gmail.com
+- GitHub: [@Akshay-Rawat](https://github.com/Akshay-Rawat)
+- LinkedIn: [add-your-profile-link](https://www.linkedin.com/)
